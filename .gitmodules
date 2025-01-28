@@ -1,0 +1,6 @@
+[submodule "lib/Redbox.NetCore.Middleware"]
+	path = lib/Redbox.NetCore.Middleware
+	url = https://github.com/redbox-automated-retail-llc/Redbox.NetCore.Middleware
+[submodule "lib/Redbox.NetCore.Logging"]
+	path = lib/Redbox.NetCore.Logging
+	url = https://github.com/redbox-automated-retail-llc/Redbox.NetCore.Logging

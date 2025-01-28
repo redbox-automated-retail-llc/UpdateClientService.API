@@ -1,0 +1,36 @@
+namespace UpdateClientService.API.Services.IoT.Commands
+{
+    public enum CommandEnum
+    {
+        Default,
+        PeekFiles,
+        UploadFiles,
+        RenewCertificates,
+        CancelDownloadFileJob,
+        ExecuteDownloadFileJob,
+        GetDownloadFileJobStatus,
+        ExecuteHttpRequest,
+        RenewIoTCertificates,
+        Ping,
+        BrokerRegister,
+        BrokerUnRegister,
+        DeployFileSet,
+        KioskPing,
+        ServerInstance,
+        ReportFileSetVersions,
+        GetPresignedS3Url,
+        GetKioskFilesDirectories,
+        DownloadFileJobExecutionStatusUpdate,
+        GetConfigChanges,
+        ActivateConfigVersion,
+        TriggerGetConfigChanges,
+        GetConfigStatus,
+        TriggerUpdateConfigStatus,
+        TestDummy,
+        SyncTimestampAndTimezone,
+        GetKioskSegments,
+        TriggerReportFileSetVersions,
+        GetRecordChanges,
+        GetIotStatisticsSummary,
+    }
+}

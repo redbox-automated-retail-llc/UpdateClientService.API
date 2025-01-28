@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateClientService.API", "UpdateClientService.API.csproj", "{64DD84C7-D06B-4252-8147-C7B4A7D5495F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.NetCore.Logging", "lib\Redbox.NetCore.Logging\Redbox.NetCore.Logging.csproj", "{C50D6067-C090-46AD-821C-287AA2625F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.NetCore.Middleware", "lib\Redbox.NetCore.Middleware\Redbox.NetCore.Middleware.csproj", "{1221189A-2E7B-43EB-B7D4-11946B90A4F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64DD84C7-D06B-4252-8147-C7B4A7D5495F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DD84C7-D06B-4252-8147-C7B4A7D5495F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DD84C7-D06B-4252-8147-C7B4A7D5495F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DD84C7-D06B-4252-8147-C7B4A7D5495F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50D6067-C090-46AD-821C-287AA2625F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50D6067-C090-46AD-821C-287AA2625F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50D6067-C090-46AD-821C-287AA2625F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50D6067-C090-46AD-821C-287AA2625F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1221189A-2E7B-43EB-B7D4-11946B90A4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1221189A-2E7B-43EB-B7D4-11946B90A4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1221189A-2E7B-43EB-B7D4-11946B90A4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1221189A-2E7B-43EB-B7D4-11946B90A4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30430E34-A0FE-4E81-B446-79088B217FCA}
+	EndGlobalSection
+EndGlobal
